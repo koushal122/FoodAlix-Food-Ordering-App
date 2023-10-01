@@ -1,5 +1,4 @@
 import rating from "../Images/rating-icon.png";
-import dish from "../Images/dish.png";
 import "./card.css"
 import { useContext } from "react";
 import UserContext from "../Utils/Contexts";
