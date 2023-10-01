@@ -7,7 +7,97 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.logo{
+  width: 100px;
+  height: 80px;
+}
+.body-comp{
+  background-color: #f5f3f3;
+}
+.navigation-menus{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #5c5c5c;
+  list-style: none;
+  font-size: 17px;
+  font-weight: 500;
+  
+}
+.signUp-btn{
+  margin-left: 10px;
+  margin-right: 15px;
+  border-radius: 10px;
+  background-color: #ffd863;
+  border: 0px;
+  font-size: 17px;
+}
+.login-btn{
+  background-color: white;
+   border: 0px;
+   font-size: 17px;
+}
+.header-button{
+   padding: 10px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.login-signup{
+  display: flex;
+  align-items: center;
+}
+.oops{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.oops-text{
+  color: Red;
+  font-size: 20px;
+  font-weight: 700;
+}
+li{
+  padding: 8px;
+  text-decoration: none;
+  list-style: none;
+}
+li:hover{
+  background-color: #ffd863;
+  color: black;
+  border-radius: 8px;
+}
+a{
+  text-decoration: none;
+}
+
+.restaurant-menu-items{
+  display: flex;
+  gap:30px;
+  justify-content: space-between;
+}
+
+.addToCartBtn{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: #24db24;
+  border-width: 0px;
+  font-weight: 700;
+}
+
+.removeFromCartButton{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: #ff5c5c;
+  border-width: 0px;
+  font-weight: 700;
 }

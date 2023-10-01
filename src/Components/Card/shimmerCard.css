@@ -1,0 +1,13 @@
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+}
+.shimmer-restaurant{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(156, 156, 156);
+    margin: 20px;
+    border-radius: 10px;
+}
